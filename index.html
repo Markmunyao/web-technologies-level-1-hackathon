@@ -1,24 +1,61 @@
-<!-- 1. create the basic html structure. your structure should include a blue heading and a red paragragh with font size 15px -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WORLD TRADE FUND</title>
+        <link rel="stylesheet" href="C:\Users\HP\Desktop\WEB DEV TUE\WEB DEV HACKATHON WEEK4\STYLE.CSS">
 
+    </head>
+    <body>
+        <h1>Home</h1>
+        <br>
+        <p>World Trade Fund provides grants to investors worldwide, fostering economic development and global partnerships. Our mission is to empower entrepreneurs and businesses to expand their reach and innovate. Join us in creating a more interconnected and prosperous world through strategic investment. Apply for a grant today and take your project to the next level!</p>
+        <br>
+        <a href="https://www.worldtradefund.com/apply" target="_blank">Apply Now</a>
+        <br>
+        <h2>Investments</h2>
+        <img src="https://blog.hone-all.co.uk/hubfs/investing-in-your-factory-is-the-key-to-manufacturing-success.jpg#keepProtocol">
+        <br>
+        <form action="Applicationdetails/data" method="post" enctype="application/x-www-form-urlencoded">
+            <label>Name</label>
+            <input type="text" id="Name" name="Name">
+            <br>
+            <label>Email address</label>
+            <input type="email" id="Email address" name="Email address">
+            <br>
+            <label>Phone nummber</label>
+            <input type="tel" id="Phone number" name="Phone number">
+            <br>
+            <label>Age</label>
+            <input type="text" id="Age" name="Age">
+            <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" value="Male" id="Female" name="Gender">
+                <label for="Male">Male</label>
+                <br>
+                <input type="radio" name="Gender" id="female" value="female">
+                <label for="Female">Female</label>
+            </fieldset>
+            <br>
+            <select name="Subjects" multiple id="Subjects" >
+                <option value="English">English</option>
+                <option value="Math">Math</option>
+                <option value="Science">Science</option>
+                <option value="Art and craft">Art and craft</option>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Geography">Geography</option>
+                <option value="History">History</option>
+            </select>
+            <br>
+            <label>Password</label>
+            <input type="password" id="Password" name="Password">
+            <br>
+            <input type="hidden" name="sessionId" value="your_session_id_here">
+            <br>
+            <input type="reset" id="Clear" value="Clear" name="Clear" onclick="">
+            <input type="submit" id="Register" value="Register" name="Register" onclick="">
+        </form>
 
-<!-- 2. in your html file, add a link that opens a new tab to an external resource  -->
+    </body>
 
-
-<!-- 3. create a section and add an image, using css; place a green border on the image, the image should be 500px wide and 500px high -->
-
-
-<!-- 4. create another section add a form that takes in the following input:
-  a. name
-  b. email address
-  c. phone number
-  d. age
-  e. radio checkbox for gender (use fieldset to group the gender input)
-  f. dropdown for multi-selection of subjects: English, Math, Science, Art and Craft, Agriculture, Geography and History
-  g. password
-  h. a hidden field to capture sessionId
-  i. cancel button that clears form inputs
-  j. submit button with text register
-  make sure to incorporate relevant labels in your form elements using the necessary and relevant input types and element attributes
--->
-
-<!-- 5. all styling should be placed in the style.css, make sure to correctly embed the external css file on the index.html file using the relevant tag  -->
+</html>
