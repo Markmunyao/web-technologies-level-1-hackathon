@@ -1,1 +1,111 @@
+h1,h2{
+    color: blue;
+
+}
+
+p{
+    color: red;
+    font-size: 15px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: green;
+    border: 2px solid green;
+    text-align: left;
+}
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 3px;
+    padding: 3px;
+    background-color:yellow;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+h1,h2 {
+    color:blue;
+    text-align: left;
+}
+
+/* Paragraph styling */
+p {
+    color: red;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Form styling */
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
 
